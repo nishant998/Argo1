@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300&display=swap");
+.home_container_1 {
+  /* background: #ACE1AF; */
+  background: url("./home_background_1.jpg") no-repeat center;
+  background-size: cover;
+}
+.home_container_1_login {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  right: 5rem;
+  /* border: 1px solid black; */
+  height: 10rem;
+  width: 20rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  /* box-shadow: 0.1rem 0.1rem 1rem rgb(190, 187, 187); */
+}
+.login_button {
+  height: 2rem;
+  width: 8rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  /* border: none; */
+  color: white;
+  background: rgb(69, 99, 21);
+  cursor: pointer;
+}
+.login_button:active {
+  background: rgb(100, 117, 5);
+  color: rgb(226, 222, 222);
+}
+form {
+  height: 30rem;
+  width: 50%;
+  margin-top: 20rem;
+  border: 3px solid black;
+  padding-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10rem;
+  margin-bottom: 10rem;
+  flex-direction: column;
+  font-family: "Hind Guntur", sans-serif;
+  font-size: 2rem;
+  background-color: white;
+}
+select {
+  margin: 1rem 0rem;
+  height: 1.6rem;
+  font-size: 1.3rem;
+  width: 20rem;
+  margin-bottom: 2rem;
+}
+input {
+  width: 15rem;
+  height: 1.7rem;
+  border-radius: 10px;
+  background-color: darkgreen;
+  color: white;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
+input:active {
+  background-color: rgb(38, 146, 38);
+  color: rgb(204, 201, 201);
+}
+label {
+  display: flex;
+  flex-direction: column;
+}
+.select_city {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.city_data{
+  font-size: 1.3rem;
+  left: 0px;
+  margin-top: 2rem;
+  margin-bottom: -5rem;
+  /* margin-left: -25rem; */
+}

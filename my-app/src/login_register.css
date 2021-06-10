@@ -1,0 +1,26 @@
+
+.form__container{
+    margin-top: 5rem;
+    margin-left: 27rem;
+    display: flex;
+    width: 40rem;
+    height: 27rem;
+    border-radius: 20px;
+    padding-top: 7rem;
+}
+.email_label{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+.email_label>input{
+    margin-top: -0.3rem;
+}
+.password_label{
+    font-size: 1.3rem;
+}
+.password_label>input{
+    margin-top: -0.3rem;
+}
+.submit_form_button{
+    margin-top: 4rem;
+}

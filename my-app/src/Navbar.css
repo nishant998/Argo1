@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@1&display=swap');
+.navbar__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5e8c61;
+    font-family: 'Ropa Sans', sans-serif;
+    height: 4rem;
+    padding-left: 2rem;
+}
+.navbar_links{
+    display: flex;
+    margin: 0.5rem 2rem;
+    text-decoration: none;
+    margin-top: 6rem;
+}
+.navbar_link>a{
+    text-decoration: none;
+    color: white;
+}
+.navbar_link{
+    list-style: none;
+    margin-right: 2.5rem;
+    font-size: 1.5rem;
+}
+.navbar_link>a:hover{
+    /* text-decoration: underline; */
+    color: rgb(2, 44, 2);
+}
+.navbar_links_class{
+    display: flex;
+    margin-right: -22rem ;
+}
+.login_register_container{
+    color: darkblue;
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    margin-right: 1rem;
+    list-style: none;
+    margin-top: 5rem;
+}
+.login_link{
+    border: 1px solid rgb(189, 216, 189);
+    border-radius: 4px;
+    background: rgb(223, 243, 223) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3rem;
+    padding: 0.5rem 2rem;
+}
+.login_link>a{
+    color: black;
+}
