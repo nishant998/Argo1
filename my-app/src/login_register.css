@@ -14,13 +14,20 @@
 }
 .email_label>input{
     margin-top: -0.3rem;
+    border: none;
+    padding: 0rem 0.4rem;
+    outline: none;
 }
 .password_label{
     font-size: 1.3rem;
 }
 .password_label>input{
     margin-top: -0.3rem;
+    border: none;
+    padding: 0rem 0.4rem;
+    outline: none;
 }
 .submit_form_button{
     margin-top: 4rem;
+    cursor: pointer;
 }
